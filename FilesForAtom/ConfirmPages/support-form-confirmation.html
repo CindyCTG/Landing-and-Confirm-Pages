@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KH5V24T');
+    </script>
+    <!-- End Google Tag Manager -->
+    <title>ClosetsToGo</title>
+    <meta name="description" content="support">
+    <link href="<?php echo SITEROOT; ?>app.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1070979898"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-1070979898');
+    </script>
+</head>
+
+<body class="idea-folder-popup">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KH5V24T" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <?php
+    require_once($real_root . '/pages/views/header.php');
+    ?>
+
+    <main class="main clearfix">
+
+        <section>
+            <div class="container" style="padding-top: 2%; width:100%; margin-left: auto; margin-right: auto; text-align: center;">
+                <div class="wrapper">
+                    <div class="loading-text">
+                        <h1 class="titleText">
+                            <span class="dot-one">Thank</span>
+                            <span class="dot-two"> You</span>
+
+                        </h1>
+                    </div>
+                </div>
+                
+                <h5 class="dot-two" style="color: #59C2C4; text-align: center; text-transform:none; font-family:'Montserrat', sans-serif !important;">We will be in contact within 48 hours.</h5>
+                
+                <h5 class="dot-two" style="color: #59C2C4; text-align: center; text-transform:none; font-family:'Montserrat', sans-serif !important;">We are looking forward to serving you!</h5>
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module">
+                </script><dotlottie-player src="https://lottie.host/7c7e2746-49a9-4842-90ec-f27e981e1335/TWPoV1dFvF.json" background="transparent" speed="0.6" style="width: 100%; height: 200px;" autoplay></dotlottie-player>
+                <h5 class="dot-three" style="color: #59C2C4; text-align: center; text-transform:none; font-family:'Montserrat', sans-serif !important;">Feel free to submit another form <a href="https://www.closetstogo.com/support.html" style="color: #ED9C00;">here</a> or explore our website!</h5>
+            </div>
+
+        </section>
+
+
+        <style>
+            .titleText {
+                font-size: 2.5em;
+                /* text-transform: uppercase; */
+                color: #384765;
+                font-family: 'Futurica-BS-light', sans-serif;
+                font-weight: 500;
+            }
+
+            span[class^="dot-"] {
+                opacity: 100;
+            }
+
+            .dot-one {
+                animation: dot-one 4s;
+                animation-iteration-count: 1;
+            }
+
+            .dot-two {
+                animation: dot-two 4s;
+                animation-iteration-count: 1;
+            }
+
+            .dot-three {
+                animation: dot-three 3s;
+                animation-iteration-count: 1;
+            }
+
+
+
+
+
+            @keyframes dot-one {
+                0% {
+                    opacity: 0;
+                }
+
+                15% {
+                    opacity: 0;
+                }
+
+                25% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+
+                }
+            }
+
+            @keyframes dot-two {
+                0% {
+                    opacity: 0;
+                }
+
+                25% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes dot-three {
+                0% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 0;
+                }
+
+                75% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+
+    </main>
+
+
+    <?php
+    require_once($real_root . '/pages/views/virtual-assistant.php');
+    require_once($real_root . '/pages/views/mobile-show-footer-buttons.php');
+    require_once($real_root . '/pages/views/footer.php');
+    require_once($real_root . '/pages/views/modal-perfect-fit-guarantee.php');
+    require_once($real_root . '/pages/views/modal-free-shipping.php');
+    require_once($real_root . '/pages/views/modal-save-to-idea-folder.php');
+    require_once($real_root . '/pages/views/modal-save-to-specs-sheet.php');
+    require_once($real_root . '/pages/views/modal-custom-fixed-element-info-employee.php');
+
+    ?>
+
+    <script src="<?php echo SITEROOT; ?>app.js"></script>
+</body>
+
+</html>
