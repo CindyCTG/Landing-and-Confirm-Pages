@@ -1,3 +1,71 @@
+.phone-image1{
+    max-width: 50px !important; 
+    font-size: 20px;
+    margin-bottom: 7%;
+}
+
+.led-section{
+    max-width: 1200px;
+}
+/* START of expand image css */
+
+
+.columnC {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.columnC img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.columnC img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.Caro {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+/* END of expand image css */
+
+
+
+
+
 
 .btnstyle{
     box-shadow: 4px 5px rgba( 255, 190, 10, 0.2); 
@@ -7,6 +75,11 @@
     height: 40px; 
     background-color: #ffa601; 
     color:#ffff;
+}
+
+.ledCaro{
+    height: 400px;
+    width: 400px;
 }
 
 .btnSize{
@@ -140,7 +213,8 @@
 }
 
 .Led-background {
-    background-color: linear-gradient(to right, rgba(200,246,253,0.3), rgb(220,238,240, 0.4));
+    /* background-image: linear-gradient(to right, rgba(200,246,253,0.3), rgb(220,238,240, 0.4)); */
+    width: auto;
 }
 
 .textLightSpecial{
@@ -339,6 +413,7 @@
     width: auto;
     padding: 16px;
     margin-top: -22px;
+    background-color:  #ffa601;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -441,6 +516,7 @@ a:hover {
     width: auto;
     padding: 16px;
     margin-top: -22px;
+    background-color:  #ffa601;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -539,6 +615,7 @@ a:hover {
     width: auto;
     padding: 16px;
     margin-top: -22px;
+    background-color: #ffa601;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -709,12 +786,13 @@ a:hover {
     .WrapText{
         width: auto;
         margin-left: unset;
+        height: 250px;
         margin-top: unset;
     }
     .home-page{
         padding-top: 143px !important;
     }
-   
+
 
     .contentResponsive{
         margin-right: 0 !important;
@@ -1167,6 +1245,13 @@ a:hover {
 
 
 @media (max-width: 1366px){
+    .ledCaro{
+        height: 250px;
+        width: 100%;
+    }
+    .LEDSCTA small{
+        display: none;
+    }
     .headerCTAText{
         width: auto;
         margin-top: -25%;
@@ -1489,9 +1574,11 @@ a:hover {
     }
 
     .headerCard {
-        font-size: 1.5rem;
+        display: none;
+        /* font-size: 1.5rem;
         padding-top: 3%;
-    }
+    } */
+}
 
     .rightSection {
         max-width: 100%;
@@ -1516,6 +1603,7 @@ a:hover {
 }
 
 @media (max-width: 1366px) {
+    
     
     .stylePad1{
         padding-bottom: 3%;
@@ -1968,6 +2056,18 @@ video {
 }
 
 @media (max-width: 320px){
+    .ledCaro{
+        height: 250px;
+        width: 100%;
+    }
+    .headerCard {
+        display: none;
+    }
+
+    .LEDSCTA small{
+        display: none;
+    }
+
     .mobileviewP{
         display: none;
     }
@@ -2011,6 +2111,19 @@ video {
     }
 }
 @media (max-width: 360px){
+    .ledCaro{
+        height: 250px;
+        width: 100%;
+    }
+
+    .headerCard {
+        display: none;
+}
+
+    .LEDSCTA small{
+        display: none;
+    }
+
     .mobileviewP{
         padding-top: unset;
     
@@ -2043,3 +2156,13 @@ video {
         padding-top: 4%;
     }
 }
+
+
+
+
+
+
+
+
+
+
