@@ -98,11 +98,11 @@
 											</h1> -->
 												<div class="WrapText">
 													<h3 class="first-fixed-block__img-group--heading heroSubHero">
-														<span style="font-weight: 900;">Brighten</span> up with<br><span style="color:#18C4C7;">FREE </span><span style="color: #fff845; font-weight: 900; text-shadow: 2px 2px 2px 2px #fffb91;">LED</span>
-														lights! <br><span class="spanCTA">Claim them today.</span>
-														<br>
-														<span><small style="color: #fff845; letter-spacing: 2px; font-weight: 900; font-size: 22px; font-family: 'Montserrat', sans-serif !important; ">
-																Limited time only - Act Fast - Orders over $5,000</small></span>
+														<a href="https://www.closetstogo.com/request-local-design.html" style="color: white;"><span style="font-weight: 900;">Brighten</span> up with<br><span style="color:#18C4C7;">FREE </span><span style="color: #fff845; font-weight: 900; text-shadow: 2px 2px 2px 2px #fffb91;">LED</span>
+															lights! <br><span class="spanCTA">Claim them today.</span>
+															<br>
+															<span><small style="color: #fff845; letter-spacing: 2px; font-weight: 900; font-size: 22px; font-family: 'Montserrat', sans-serif !important; ">
+																	Limited time only - Act Fast - Orders over $5,000</small></span></a>
 														<!-- Embark on your DIY closet today!<br>*Free LED lights*<br>with order! -->
 													</h3>
 
@@ -111,7 +111,7 @@
 															<img class="arrowDesktop" src="images/whitearrow.svg">
 
 															<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btnstyle btnSize buttonRequest">
-																Get my design - it's free!</a>
+																Get your free design</a>
 														</div>
 
 														<div class="MobileHeroCTA">
@@ -120,7 +120,7 @@
 															</div>
 															<div class="buttonRequest">
 																<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btnstyle">
-																	Get my design - it's free!</a>
+																	Get your free design</a>
 															</div>
 														</div>
 
@@ -150,33 +150,95 @@
 	<main class="main clearfix">
 		<div class="container container-fluid Led-background">
 			<div class="container led-section" style="margin-top: 4%;">
-			<h2 class="headerCTAText"><br>
-					FREE LED LIGHTS - EXCLUSIVE LIMITED OFFER
-					<p style="color: #18C4C7; font-size: 1.5rem; font-weight: 500;"><span style="color: #18C4C7; font-size: 1.5rem;">$1,000 in Free LED lights instantly with orders exceeding $5,000!
-						</span></p>
+				<h2 class="headerCTAText"><br>
+					<a href="https://www.closetstogo.com/request-local-design.html" style="text-align: center;
+    color: #ffa601;
+    font-weight: 600;">FREE LED LIGHTS - <br>LIMITED TIME
+						<p style="color: #18C4C7; font-size: 1.5rem; font-weight: 500;"><span style="color: #18C4C7; font-size: 1.5rem;">$1,000 in Free LED lights when orders exceed $5,000!
+							</span></p>
+					</a>
 				</h2>
-				<div class="container px-4 text-center">
+
+
+
+				<div class="container">
+					<div class="row">
+						<div class="columnC">
+							<img src="images/LEDLights1.jpg" alt="Walk In LED" style="width:100%" onclick="myFunction(this);">
+						</div>
+						<div class="columnC">
+							<img src="images/luxLED.jpg" alt="Closet LED" style="width:100%" onclick="myFunction(this);">
+						</div>
+						<div class="columnC">
+							<img src="images/ledpantry.png" alt="Pantry LED" style="width:100%" onclick="myFunction(this);">
+						</div>
+						<div class="columnC">
+							<img src="images/shoeled.jpg" alt="Shoe Display LED" style="width:100%" onclick="myFunction(this);">
+						</div>
+					</div>
+
+					<div class="container Caro" style="text-align: center;">
+						<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+						<img class="ledCaro" id="expandedImg">
+						<div id="imgtext"></div>
+
+
+					</div>
+
+					<div class="col">
+						<div class="p-3">
+							<h5 class="card-title LEDCTA">Secure my free LED lights - No Electrician required - Submit my free request now<h5>
+									<div class="textLightSpecial">
+										<!-- <p class="card-text LEDSCTA"><small class="text-body-secondary">Submit Here!<br> -->
+										<img class="arrowDesktop" src="images/arrowDown.svg"></small><br>
+										<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn freeDesign24HrsButton btnstyle">Get your design</a></p>
+									</div>
+						</div>
+
+
+					</div>
+				</div>
+
+				<script>
+					function myFunction(imgs) {
+						var expandImg = document.getElementById("expandedImg");
+						var imgText = document.getElementById("imgtext");
+						expandImg.src = imgs.src;
+						imgText.innerHTML = imgs.alt;
+						expandImg.parentElement.style.display = "block";
+					}
+				</script>
+
+
+				<!-- <div class="container px-4 text-center">
 					<div class="row gx-5">
 						<div class="col">
-							<div class="p-3"><div class="LedImage">
-					<img src="images/LEDLights1.jpg" class="img-fluid" alt="..." style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);">
-				</div></div>
-						</div>
-						<div class="col">
+							<div class="p-3"> -->
+				<!-- <div class="container Caro">
+									<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+									<img id="expandedImg" style="float: left;">
+									<div id="imgtext"></div>
+								</div> -->
+				<!-- <div class="LedImage">
+									<img src="images/LEDLights1.jpg" class="img-fluid" alt="..." style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);">
+								</div> -->
+				<!-- </div>
+						</div> -->
+				<!-- <div class="col">
 							<div class="p-3">
-							<h5 class="card-title LEDCTA">Secure my free LED lights - No Electrician required - Submit my free request now<h5>
-						<div class="textLightSpecial">
-							<p class="card-text LEDSCTA"><small class="text-body-secondary">Submit Here!<br>
-							<img class="arrowDesktop" src="images/arrowDown.svg"></small><br>
-							<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn freeDesign24HrsButton btnstyle">Get my design</a></p>
+								<h5 class="card-title LEDCTA">Secure my free LED lights - No Electrician required - Submit my free request now<h5>
+										<div class="textLightSpecial"> -->
+				<!-- <p class="card-text LEDSCTA"><small class="text-body-secondary">Submit Here!<br> -->
+				<!-- <img class="arrowDesktop" src="images/arrowDown.svg"></small><br>
+											<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn freeDesign24HrsButton btnstyle">Get your Free design</a></p>
+										</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				
-				
-				
-						</div>
+
+
+
+				</div> -->
 
 
 
@@ -184,7 +246,7 @@
 
 
 
-						<!-- <div class="card mb-3" style="padding-top: 4px; border: none; margin-left: auto; margin-right: auto;">
+				<!-- <div class="card mb-3" style="padding-top: 4px; border: none; margin-left: auto; margin-right: auto;">
 				<div class="row g-0"  style="margin-top: 1px; max-height: 900px; margin-left:0 !important; margin-right:0 !important; padding-left: 0; padding-right: 0;">
 					<div class="col-md-3">
 						<img src="images/LEDLights.jpg" class="img-fluid rounded-start" alt="Led lighting closet">
@@ -201,10 +263,283 @@
 			</div>
 		</div>
 
+
+
+		<div class="container" style="background-color: #ffff; padding-top: 2%;">
+			<p style="text-align: center; font-size: 30px; color: #384765; margin-bottom: 0;"><a href="https://www.closetstogo.com/request-local-design.html" style="color: #384765;">Get Your Free Design</a></p>
+			<p style="text-align: center; font-size: 30px; color: #384765;">Or<br>Call Us Today!</p>
+			<div class="first-header__phone-card--phone" style="text-align: center; width: 100%; margin-bottom: 4%;">
+				<div class="first-header__child" style="display: block; width: 100%;">
+					<a href="tel:1-888-312-7424" title="Call us" class="first-header__child__call" title="" style="font-size: 30px; color: #384765; font-weight: 540;">
+						<img src="<?php echo SITEROOT; ?>images/call-us-icon.svg" alt="Call us" class="phone-image1" />
+						<br>1-888-312-7424
+					</a>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="container-fluid">
+					<h1 class="headerCard" style="text-align: center; text-transform: uppercase; ">DIY Closet Organizers</h1>
+					<p class="headerParagraph">Install your dream closet in 1 day!</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- End section with video, three bullets and header --->
+
+
+		<!-- Start section with three slides with verbiage overlay-->
+		<div class="container-fluid slidesCloset">
+			<div class="slideshow-container1">
+				<h3 class="slideTitleMobile" style="text-align: center; color:#384765;">DIY Walk In Closets Gallery</h3>
+
+
+				<div class="mySlides1 fade1 img__wrap">
+					<div class="numbertext1">1 / 5</div>
+					<img class="imgslides1 img__img lazy" src="images/landingpage-images/Walk-InCaro/WalkInWineCloset5.jpg" alt="Walnut wine walk in closet with abundant room for bottles">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Custom Walk In Wine Room</span>
+						<span class="paraWrap">This walk in wine cellar in its warm and rich Walnut finish will knock the socks off those who enter! Designed with entertaining guests top of mind, this lavish piece is designed around a wine fridge, has a large serving table, plenty of room for a table and chairs plus room to mingle! Nearly 1,000 lucky bottles of vino will call this luxurious custom wine cellar their home!</span>
+					</p>
+					<div class="text1"></div>
+				</div>
+
+
+				<div class="mySlides1 fade1 img__wrap">
+					<div class="numbertext1">2 / 5</div>
+					<img class="imgslides1 img__img lazy" src="images/landingpage-images/Walk-InCaro/WalkInCloset2.jpg" alt="Walk in brown closet with several shelves and baskets.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">DIY Walk In Closet System</span>
+						<span class="paraWrap">This well thought out design along with the sheer room size sure makes this master suite’s DIY closet organizer something to brag about. It has a little bit of everything in terms of storage styles and closet accessories all in a chrome finish that is a perfect splash of flash!
+							This warmth coupled with the foliage through the windows give off a very inspired by nature feel.
+						</span>
+					</p>
+					<div class="text1"></div>
+				</div>
+
+				<div class="mySlides1 fade1 img__wrap">
+					<div class="numbertext1">3 / 5</div>
+					<img class="imgslides1 img__img lazy" src="images/landingpage-images/Walk-InCaro/WalkInLEDCloset3.jpg" alt="Walk in white led closet with drawers and tilted shelves.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">LED Lighting Closet - DIY</span>
+						<span class="paraWrap">When you have an enclosed space with poor lighting, a LED package is a must. With this custom DIY walk in closet, this optional upgrade can be strategically placed to help light the way or highlight or showcase specifics in your wardrobe. This floor based closet is lit from head to toe and highlights many wardrobe items which makes all the difference in this particular space.</span>
+					</p>
+					<div class="text1"></div>
+				</div>
+
+				<div class="mySlides1 fade1 img__wrap">
+					<div class="numbertext1">4 / 5</div>
+					<img class="imgslides1 img__img lazy" src="images/landingpage-images/Walk-InCaro/WalkInPantryCloset4.jpg" alt="Walk in luxurious black pantry with shelves.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">DIY Walk In Pantry</span>
+						<span class="paraWrap">An aesthetically pleasing space meets functionality with this gorgeous pantry. The built in hutch provides a nice countertop to utilize and store larger appliances while the open pull out shelves make finding items a breeze. This large space provides an organized, spacious haven for long term food storage for years to come!</span>
+					</p>
+					<div class="text1"></div>
+				</div>
+
+				<div class="mySlides1 fade1 img__wrap">
+					<div class="numbertext1">5 / 5</div>
+					<img class="imgslides1 img__img lazy" src="images/landingpage-images/Walk-InCaro/WalkInCloset1.jpg" alt="Walk in white pantry closest with natural lighting.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Walk in Closet Organizer</span>
+						<span class="paraWrap">This gloriously bright walk in closet system greets its homeowner every morning with a variety of storage styles ensuring a place for everything! The end walls are sprinkled with varying hanging lengths for his and her tops, pants and medium to long dresses.The custom closet is topped off with crown molding, a vented toe kick and Oil Rubbed Bronze accessories for a pop of color!</span>
+					</p>
+					<div class="text1"></div>
+				</div>
+
+				<a class="prev1" onclick="plusSlides(-1)">❮</a>
+				<a class="next1" onclick="plusSlides(1)">❯</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center; display: none;">
+				<span class="dot1" onclick="currentSlide(1)"></span>
+				<span class="dot1" onclick="currentSlide(2)"></span>
+				<span class="dot1" onclick="currentSlide(3)"></span>
+				<span class="dot1" onclick="currentSlide(4)"></span>
+				<span class="dot1" onclick="currentSlide(5)"></span>
+
+			</div>
+
+
+
+
+
+			<div class="slideshow-container2">
+				<h3 class="slideTitleMobile" style="text-align: center; color:#384765;">DIY Reach In Closets Gallery</h3>
+				<div class="mySlides2 fade2 img__wrap">
+					<div class="numbertext2">1 / 6</div>
+					<img class="imgslides2 img__img lazy" src="images/landingpage-images/Reach-InCaro/ReachInLinenCloset4.jpg" alt="Reach in white linen closet with drawers and shelves.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">DIY Linen Closet</span>
+						<span class="paraWrap">The whole family will appreciate this customized linen closet organizer, perfectly arranged with everyday necessities to make your daily routine easier! The drawers provide discreet storage for all your linens and the adjustable shelves ensure that you can customize the closet to your changing needs.Whether you're looking to organize your linens, towels, or bedding, this closet system has you covered.</span>
+					</p>
+					<div class="text2"></div>
+				</div>
+
+				<div class="mySlides2 fade2 img__wrap">
+					<div class="numbertext2">2 / 6</div>
+					<img class="imgslides2 img__img lazy" src="images/landingpage-images/Reach-InCaro/ReachInCloset2.jpg" alt="Reach in closet with shelves, drawers and medium hang.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Custom Reach in Closet - DIY</span>
+						<span class="paraWrap">This two tone reach-in closet organizer is exquisite to say the least! There is plenty of hanging space, adjustable shelves that can be moved up or down and full extension drawers to give you plenty of covered storage for personal items. It goes to show how choice of finishes and a pop color can take a simple reach in closet to the next level!
+						</span>
+					</p>
+					<div class="text2"></div>
+				</div>
+
+				<div class="mySlides2 fade2 img__wrap">
+					<div class="numbertext2">3 / 6</div>
+					<img class="imgslides2 img__img lazy" src="images/landingpage-images/Reach-InCaro/ReachInCraftCloset3.jpg" alt="Reach in craft closet with drawers, shelves and baskets.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">DIY Craft Closet</span>
+						<span class="paraWrap">Considering its tiny footprint, you'll be pleasantly surprised with the storage capability of this well planned craft organizer system! Nine drawers of varying sizes are nestled below, including an extra wide wrapping paper drawer. The LED valance along with top and bottom fascia nicely ties off the look and as you can see this tiny craft closet really packs a punch!</span>
+					</p>
+					<div class="text2"></div>
+				</div>
+
+				<div class="mySlides2 fade2 img__wrap">
+					<div class="numbertext2">4 / 6</div>
+					<img class="imgslides2 img__img lazy" src="images/landingpage-images/Reach-InCaro/ReachInKidsCloset4.jpg" alt="Reach in grey kids closet.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">DIY Kids Closet</span>
+						<span class="paraWrap">Any child would be over the moon with this adorable reach in kids closet! With adjustable shelves and hanging rods, there is plenty of room to accommodate different sized clothing as the little one sprouts. An off center hutch provides full access when the door is fully open and has able room for storage above. Designed with forethought, this little closet has room to grow!</span>
+					</p>
+					<div class="text2"></div>
+				</div>
+
+				<div class="mySlides2 fade2 img__wrap">
+					<div class="numbertext2">5 / 6</div>
+					<img class="imgslides2 img__img lazy" src="images/landingpage-images/Reach-InCaro/ReachInCloset1.jpg" alt="Reach in grey closet with drawers, long hang, medium hang and shelves.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Custom Reach in Closet</span>
+						<span class="paraWrap">This custom reach in closet maximizes every square inch of space and is a far stretch from your standard shelf and pole closet concept. Adjustable shelves will adapt as your needs change and the varying lengths in hanging units will accommodate all your essentials. A perk of having the dresser built into the closet system eliminates the need for one elsewhere in the room!</span>
+					</p>
+					<div class="text2"></div>
+				</div>
+
+				<div class="mySlides2 fade2 img__wrap">
+					<div class="numbertext2">6 / 6</div>
+					<img class="imgslides2 img__img lazy" src="images/landingpage-images/Reach-InCaro/ReachInPantryCloset5.jpg" alt="Reach in grey pantry.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">DIY Pantry</span>
+						<span class="paraWrap">At only five feet wide this pantry organizer truly has it all! Covered drawers and wire pull out baskets offer versatility while vertical dividers and small cubbies optimize the storage space. Every detail was thought out, as all will be on display with the glass door fronts, not only to create a functional space but also an aesthetically pleasing one.</span>
+					</p>
+					<div class="text2"></div>
+				</div>
+
+				<a class="prev2" onclick="plusSlides2(-1)">❮</a>
+				<a class="next2" onclick="plusSlides2(1)">❯</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center; display: none;">
+				<span class="dot2" onclick="currentSlide2(1)"></span>
+				<span class="dot2" onclick="currentSlide2(2)"></span>
+				<span class="dot2" onclick="currentSlide2(3)"></span>
+				<span class="dot2" onclick="currentSlide2(4)"></span>
+				<span class="dot2" onclick="currentSlide2(5)"></span>
+				<span class="dot2" onclick="currentSlide2(6)"></span>
+			</div>
+
+
+
+
+
+
+			<div class="slideshow-container3">
+				<h3 class="slideTitleMobile" style="text-align: center; color:#384765;">DIY Luxury Closet Gallery</h3>
+				<div class="mySlides3 fade3 img__wrap">
+					<div class="numbertext3">1 / 6</div>
+					<img class="imgslides3 img__img lazy" src="images/landingpage-images/LuxuryCaro/LuxuryWalkInclosetLED.jpg" alt="Grey LED luxury walk in closet with glass doors to display shoes.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">LED Lighting Luxury Walk in Closet</span>
+						<span class="paraWrap">Experience the ultimate luxury in this highly customized master closet organizer. Purposely discrete, this intricate and feature rich custom closet is loaded with hidden features like: a jewelry safe, a gun safe, phone charging dock, island speakers, locking drawers and glass doors. Be prepared to be captivated by the many changing moods of this LED lighting packed custom closet!</span>
+					</p>
+					<div class="text3"></div>
+				</div>
+
+				<div class="mySlides3 fade3 img__wrap">
+					<div class="numbertext3">2 / 6</div>
+					<img class="imgslides3 img__img lazy" src="images/landingpage-images/LuxuryCaro/LuxuryMasterCloset.jpg" alt="Brown walk in closet with mirror in the center">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Elegant Custom Closet System</span>
+						<span class="paraWrap">This breathtaking built in, custom walk-in closet has all the amenities you could dream of in a master closet. The LED lighting package highlights your special accessories combined with specialty glass door fronts showcase the elegance beneath and solid door fronts tuck away the rest. Hidden from all, surprise pull-out pilasters accented with rosettes store ties, belts and scarves!</span>
+					</p>
+					<div class="text3"></div>
+				</div>
+
+				<div class="mySlides3 fade3 img__wrap">
+					<div class="numbertext3">3 / 6</div>
+					<img class="imgslides3 img__img lazy" src="images/landingpage-images/LuxuryCaro/LuxuryMasterWalkInCloset.jpg" alt="Two toned walked in closet with island.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Luxury Hers Closet Organizer</span>
+						<span class="paraWrap">The combination of LED lighting, a floor to ceiling built in display case and a contrasted deep cherry finished island really gives this closet an ambiance to be envied. The built in display case with clear glass door fronts showcase the finest in gowns and luxury handbags while extra deep drawers on both sides of the island provide plenty of covered storage space.</span>
+					</p>
+					<div class="text3"></div>
+				</div>
+
+				<div class="mySlides3 fade3 img__wrap">
+					<div class="numbertext3">4 / 6</div>
+					<img class="imgslides3 img__img lazy" src="images/landingpage-images/LuxuryCaro/LuxuryWalkInCloset.jpg" alt="White walk in cloest with closet doors and island.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Luxury Walk In Closet System</span>
+						<span class="paraWrap">Sheer elegance exudes this dreamy luxury closet just for her and for such a small space, this built-in closet organizer is rich in features. An entire wall dedicated to show storage and upper storage cabinets all emphasized with LED lighting that serve as dust free display cases. This closet is perfect for storing high end luxury items while staying true to a clean boutique style vibe!</span>
+					</p>
+					<div class="text3"></div>
+				</div>
+
+				<div class="mySlides3 fade3 img__wrap">
+					<div class="numbertext3">5 / 6</div>
+					<img class="imgslides3 img__img lazy" src="images/landingpage-images/LuxuryCaro/LuxuryKidsCloset.jpg" alt="Kids Led walk in close with medium hang.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Girls LED Lighting Walk in</span>
+						<span class="paraWrap">There is much to be admired when entering this luxury kids closet organizer. The upper storage allows your child to display their favorite toys and the bonus of LED lighting will really make them pop! With stacked hanging units, the little one can feel a sense of independence being able to reach her own clothing and the adjustability ensures that the system will grow with her!</span>
+					</p>
+					<div class="text3"></div>
+				</div>
+
+
+				<div class="mySlides3 fade3 img__wrap">
+					<div class="numbertext3">6 / 6</div>
+					<img class="imgslides3 img__img lazy" src="images/landingpage-images/LuxuryCaro/LuxuryWalkInDressing.jpg" alt="Brown walk in spacious closet.">
+					<p class="img__description">
+						<span class="textWrap2" style="font-weight: 700;">Luxury Master Closet System</span>
+						<span class="paraWrap">This breathtaking built in, custom walk-in closet has all the amenities you could dream of in a master closet. The rich color, crown molding, lighting and glass doors create a feeling of opulence that's sure to please while the LED lighting package highlights special accessories and sets a romantic feeling throughout.</span>
+					</p>
+					<div class="text3"></div>
+				</div>
+
+				<a class="prev3" onclick="plusSlides3(-1)">❮</a>
+				<a class="next3" onclick="plusSlides3(1)">❯</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center; display: none;">
+				<span class="dot3" onclick="currentSlide3(1)"></span>
+				<span class="dot3" onclick="currentSlide3(2)"></span>
+				<span class="dot3" onclick="currentSlide3(3)"></span>
+				<span class="dot3" onclick="currentSlide3(4)"></span>
+				<span class="dot3" onclick="currentSlide3(5)"></span>
+				<span class="dot3" onclick="currentSlide3(6)"></span>
+			</div>
+
+
+
+
+		</div>
+
+
+
+
+
+
 		<div class="container container-fluid">
 			<div class="container titlesection1">
 				<h2 class="headerImageText">
-					"AFFORDABLE DIY CLOSET ORGANIZERS....FINALLY"!<p style="color: #18C4C7; font-size: 1.5rem;">Don't Sacrifice Quality!<span style="color: #18C4C7; font-size: 1.5rem;"> Made in the USA!</span></p>
+					"AFFORDABLE DIY CLOSET SYSTEMS....FINALLY"!<p style="color: #18C4C7; font-size: 1.5rem;">Don't Sacrifice Quality!<span style="font-weight: 900; color: #FFD700; font-size: 1.5rem;"> Made in the USA!</span></p>
 				</h2>
 				<p></p>
 			</div>
@@ -253,10 +588,11 @@
 					</div>
 				</div>
 
-				<div class="container rightSection">
+				<div class="container rightSection imageVideo vidStyle">
 
 					<div class="embed-responsive embed-responsive-16by9">
 						<lite-youtube class="imageVideo vidStyle img-fluid rounded-start" videoid="7M9t6v2wp_M">
+							<!-- <img src="images/Hybrid-Grey-Clothes.jpg"> -->
 							<a class="lite-youtube-fallback" href="https://www.youtube.com/embed/watch?v=7M9t6v2wp_M">Watch on YouTube</a>
 						</lite-youtube>
 					</div>
@@ -268,7 +604,7 @@
 									<h5 class="card-title callToAction1">Request A FREE Closet Design Today!</h5>
 									<p class="card-text callToActionText">Receive a Quote within a Week!</p>
 									<div class="btnSubmit">
-										<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btnstyle">Get my design - it's free!</a>
+										<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btnstyle">Get your free design now</a>
 									</div>
 								</div>
 							</div>
@@ -328,7 +664,7 @@
 				<div class="container-fluid">
 					<div class="wrapper">
 						<div style="float: left !important; text-align: center; width: 100%; flex: 0 0 100% !important;">
-							<h2 class="headerCard" style="text-transform:uppercase;">A Simple DIY Closet - a Lifetime of Closet Envy!</h2>
+							<h2 class="headerCard" style="text-transform:uppercase;">DIY in a day - a Lifetime of Closet Envy!</h2>
 							<p class="headerParagraph">Closet Systems Designed by Us - Installed by You</p>
 						</div>
 
@@ -372,7 +708,7 @@
 						<div class="col-9 freeDesign24Hrs">
 							<h3 class="freeDesignAction" style="text-transform:uppercase;">EXPERT CLOSET DESIGNS - LIVE CUSTOMER SUPPORT</h3>
 							<p class="freeDesignParagraph">Submit your dimensions today and receive a free design and quote in a few days!</p>
-							<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn freeDesign24HrsButton btnstyle">Get my design - it's free!</a>
+							<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn freeDesign24HrsButton btnstyle">Get your free design now</a>
 						</div>
 					</div>
 				</div>
@@ -419,7 +755,7 @@
 				<!-- Start section with video, three bullets and header --->
 				<div class="container titlesection">
 					<h2 class="titleMobile" style="text-align: center; color:#384765; font-family: 'Futura-Book', sans-serif;">
-						CUSTOM CLOSET ORGANIZER SYSTEMS - EASY CLOSETS TO INSTALL
+						CUSTOM CLOSET ORGANIZER SYSTEMS - EASY INSTALL
 						<p class="diyParagraph" style="color: #18C4C7; font-size: 25px;">Made for the NOVICE DIYer</p>
 
 					</h2>
@@ -443,7 +779,7 @@
 											<h5 class="card-title callToAction2">Request a FREE Closet Design Today!</h5>
 											<p class="card-text callToActionText2">Receive a Quote within a Week!</p>
 											<div class="btnSubmit">
-												<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn btnstyle">Get my design - it's free!</a>
+												<a href="<?php echo SITEROOT; ?>request-local-design.html" class="btn btn btnstyle">Get your free design now</a>
 											</div>
 										</div>
 									</div>
@@ -511,7 +847,7 @@
 
 		<div class="spacer" style="clear: both;"></div>
 
-		<div class="container" style="background-color: #ffff; padding-top: 1%;">
+		<!-- <div class="container" style="background-color: #ffff; padding-top: 1%;">
 			<div class="wrapper">
 				<div class="container-fluid">
 					<h1 class="headerCard" style="text-align: center; text-transform: uppercase; ">DIY Closet Organizers by Closets To Go</h1>
@@ -519,12 +855,12 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- End section with video, three bullets and header --->
 
 
 		<!-- Start section with three slides with verbiage overlay-->
-		<div class="container-fluid slidesCloset">
+		<!-- <div class="container-fluid slidesCloset">
 			<div class="slideshow-container1">
 				<h3 class="slideTitleMobile" style="text-align: center; color:#384765;">DIY Walk In Closets</h3>
 
@@ -765,7 +1101,7 @@
 
 
 
-		</div>
+		</div> -->
 
 		<!-- End section with three slides with verbiage overlay-->
 
